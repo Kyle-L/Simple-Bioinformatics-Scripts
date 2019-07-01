@@ -43,7 +43,7 @@ for seq in split_fasta:
 
     # If we are on or over the last frame, reset and
     # add all of the greatests to output file.
-    if (ctr >= NUM_OF_FRAMES):
+    if (ctr >= num_of_frames):
         for elem in greatest_strs:
             fasta_output.write(elem)
         greatest_strs.clear()
