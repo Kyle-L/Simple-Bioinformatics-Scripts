@@ -17,7 +17,11 @@ Here is a list of all available scripts.
 
 - [Collect Greatest Open Reading Frame](scripts/collect-greatest-frame.py)
   - This collects the greatest translated nucleotide sequence from a collection of open reading frames. 
-  - [Sample data](collect-greatest-frame-sample.fa)  
+  - [Sample data](sample-data/collect-greatest-frame-sample.fa)
+
+- [Find name(s) in Fasta](scripts/find-names-in-fasta.py)
+  - Collects all of the names of the sequences within a fasta query file and outputs it to a file.
+  - [Sample data](sample-data/find-name-in-fasta-in.fa)
 
 <a name="license"></a>
 ## License
