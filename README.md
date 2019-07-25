@@ -11,7 +11,7 @@ This is the repository for the development of simple bioinformatics scripts.
 <a name="scripts"></a>
 ## Scripts
 Here is a list of all available scripts.
-- [Simple NCBI Blastp](scripts/simple-ncbi-blastp.py)
+- [Simple NCBI BLASTP](scripts/simple-ncbi-blastp.py)
   - This performs a simple protein BLAST on the NCBI NR database based on a user provided fasta file. This can perform singular BLASTs and a collection of BLASTs.
   - [Sample data](sample-data/simple-ncbi-blastp-sample.fa)
 
@@ -27,6 +27,9 @@ Here is a list of all available scripts.
   - Given a list of fasta names and a fasta query file with those given names, retrieve the fasta sequences in the fasta query file and output them to a fasta query file.
   - [Sample data 1](sample-data/retrieve-fasta-from-fasta-query-sample-query.fa)
   - [Sample data 2](sample-data/retrieve-fasta-from-fasta-query-sample-names.txt)
+
+- [Rename BLAST results](scripts/rename-blast-results.py)
+  - Given a directory containing all BLAST results, the script will rename all of the results' files to match the name of the BLAST.
 
 <a name="license"></a>
 ## License
