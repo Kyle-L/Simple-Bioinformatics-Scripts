@@ -23,6 +23,11 @@ Here is a list of all available scripts.
   - Collects all of the names of the sequences within a fasta query file and outputs it to a file.
   - [Sample data](sample-data/find-name-in-fasta-in.fa)
 
+- [Retrieve Fasta Sequences From Fasta Query](scripts/retrieve-fasta-from-fasta-query.py)
+  - Given a list of fasta names and a fasta query file with those given names, retrieve the fasta sequences in the fasta query file and output them to a fasta query file.
+  - [Sample data 1](sample-data/retrieve-fasta-from-fasta-query-sample-query.fa)
+  - [Sample data 2](sample-data/retrieve-fasta-from-fasta-query-sample-names.txt)
+
 <a name="license"></a>
 ## License
 [Project License](LICENSE.md)
